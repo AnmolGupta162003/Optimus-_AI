@@ -54,7 +54,7 @@ if selected == 'ChatBot':
             st.markdown(message.parts[0].text)
 
     # Input field for user's message
-    user_prompt = st.chat_input("Ask Gemini-Pro...")  # Renamed for clarity
+    user_prompt = st.chat_input("Ask Here...")  # Renamed for clarity
     if user_prompt:
         # Add user's message to chat and display it
         st.chat_message("user").markdown(user_prompt)
